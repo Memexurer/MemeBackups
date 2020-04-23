@@ -1,0 +1,17 @@
+## MemeBackups - plugin na backupy (kozacki)
+
+database: # Baza danych, jak tego nie zmienisz to ci plugin nie bedzie dzialal
+  ip: localhost
+  port: 3306
+  user: root
+  password: ''
+  name: database
+
+savetask:
+  enabled: false # Czy zapisywanie backupow co iles czasu ma byc wlaczone?
+  interval: 5 # Co ile minut ma tworzyc backup?
+  message: # Wiadomosci wysylane na chatcie podczas zapisywania backupow.
+    start: "&aRozpoczeto tworzenie backupow."
+    end: "&aUkonczono tworzenie backupow!"
+
+data_save_interval: 4 # Co ile minut ma zapisywac dane backupow? (nie, to nie to samo co wyzej)

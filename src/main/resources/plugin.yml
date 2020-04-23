@@ -1,0 +1,9 @@
+name: MemeBackups
+version: ${project.version}
+main: pl.memexurer.backups.MemeBackupsPlugin
+authors: [Memxurer]
+description: Plugin na backupy (dojebany)
+commands:
+  backup:
+    description: Wczytaj se bakapa
+    aliases: [restorebackup, bakap]
